@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_catalogues",
+  "info": {
+    "name": "Menu catalogue",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "dishes": {
+      "collection": "dish"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
